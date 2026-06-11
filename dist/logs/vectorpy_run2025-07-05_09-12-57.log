@@ -1,0 +1,2 @@
+2025-07-05 09:13:00 - vectorpy_vectorpy.logger - INFO - Starting token refresh scheduler... (api_client.py:160)
+2025-07-05 09:13:12 - vectorpy_vectorpy.logger - WARNING - The HTTP request failed with status code 404 with the following error: 404 Client Error:  for url: https://api.stage.vectoriousmed.com/tenant/v1/diuretics-adherence/report. Verify it is expected. (__requests_wrapper.py:63)

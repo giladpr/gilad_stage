@@ -1,0 +1,37 @@
+name: Build macOS Executable
+
+on:
+  push:
+    branches: [ main ]       # runs on every push to main
+  workflow_dispatch:          # also allows manual trigger from GitHub UI
+
+jobs:
+  build-mac:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'  # match your Python version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build executable
+        run: |
+          pyinstaller --clean --onefile main.py \
+            --paths=. \
+            --add-data "$(python -c 'import certifi; print(certifi.where())'):."
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mac-executable
+          path: dist/main        # the built binary

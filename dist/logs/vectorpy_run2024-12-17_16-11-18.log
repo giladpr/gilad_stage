@@ -1,0 +1,6 @@
+2024-12-17 16:11:21 - vectorpy_vectorpy.logger - INFO - Starting token refresh scheduler... (api_client.py:160)
+2024-12-17 16:27:15 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)
+2024-12-17 16:41:16 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)
+2024-12-17 16:55:17 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)
+2024-12-17 17:09:18 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)
+2024-12-17 17:23:19 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)

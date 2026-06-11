@@ -1,0 +1,3 @@
+2025-11-17 18:53:28 - vectorpy_vectorpy.logger - INFO - Starting token refresh scheduler... (api_client.py:160)
+2025-11-17 19:07:29 - vectorpy_vectorpy.logger - INFO - Access token refreshed successfully. (api_client.py:136)
+2025-11-17 19:09:48 - vectorpy_vectorpy.logger - WARNING - The HTTP request failed with status code 409 with the following error: 409 Client Error:  for url: https://api.stage.vectoriousmed.com/tenant/v1/diuretics-adherence/report. Verify it is expected. (__requests_wrapper.py:63)

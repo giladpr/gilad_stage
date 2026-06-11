@@ -1,0 +1,18 @@
+2026-04-13 11:10:49 - vectorpy_vectorpy.logger - INFO - Starting token refresh scheduler... (api_client.py:160)
+2026-04-13 11:24:50 - vectorpy_vectorpy.logger - ERROR - Failed to refresh access token: {
+  "code" : "TOKEN_NOT_VALID",
+  "hostName" : "599971a5abf3"
+} (api_client.py:129)
+2026-04-13 11:24:50 - vectorpy_vectorpy.logger - ERROR - Error refreshing access token (attempt 1/3): Token refresh failed (api_client.py:139)
+2026-04-13 11:24:55 - vectorpy_vectorpy.logger - ERROR - Failed to refresh access token: {
+  "code" : "TOKEN_NOT_VALID",
+  "hostName" : "599971a5abf3"
+} (api_client.py:129)
+2026-04-13 11:24:55 - vectorpy_vectorpy.logger - ERROR - Error refreshing access token (attempt 2/3): Token refresh failed (api_client.py:139)
+2026-04-13 11:25:00 - vectorpy_vectorpy.logger - ERROR - Failed to refresh access token: {
+  "code" : "TOKEN_NOT_VALID",
+  "hostName" : "599971a5abf3"
+} (api_client.py:129)
+2026-04-13 11:25:00 - vectorpy_vectorpy.logger - ERROR - Error refreshing access token (attempt 3/3): Token refresh failed (api_client.py:139)
+2026-04-13 11:25:00 - vectorpy_vectorpy.logger - ERROR - Max retries reached. Could not refresh access token. (exceptions.py:8)
+2026-04-13 11:25:00 - vectorpy_vectorpy.logger - ERROR - Error in token refresh loop: Max retries reached. Could not refresh access token. (exceptions.py:8)

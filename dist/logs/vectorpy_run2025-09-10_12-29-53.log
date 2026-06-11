@@ -1,0 +1,1 @@
+2025-09-10 12:29:55 - vectorpy_vectorpy.logger - ERROR - Failed MFA verification: {'code': 'INTERNAL_SERVER_ERROR', 'message': 'could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement', 'hostName': '44791111daaf'} (api_client.py:101)

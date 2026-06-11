@@ -1,0 +1,7 @@
+2025-09-10 12:30:51 - vectorpy_vectorpy.logger - ERROR - Failed to authenticate: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>
+ (api_client.py:82)
