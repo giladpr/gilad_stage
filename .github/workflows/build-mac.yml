@@ -26,7 +26,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --clean --onefile main.py \
+          pyinstaller --clean --onefile --windowed main.py \
             --paths=. \
             --add-data "$(python -c 'import certifi; print(certifi.where())'):."
 
@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: mac-executable
-          path: dist/main
+          path: dist/main.app
