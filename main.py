@@ -909,7 +909,7 @@ print(' ')
 # prepare(api_handler,"ES-II-05-003", "GP-01-009")
 # prepare(api_handler,"DE-II-06-001", "GP-01-009")
 
-act(api_handler)
+# act(api_handler)
 
 # Move trained patient to very high
 # prepareVH(api_handler, "GP-01-009")
